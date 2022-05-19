@@ -63,15 +63,13 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 mMap.addPolyline(polyLine);
             }
         }).execute();
-
+        setLocationFromServer();
     }
 
     private void setLocationFromServer() {
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        String db_id = "klhdb";
-        DatabaseReference myRef3 = database.getReference("current");
-        GeoFire geoFire = new GeoFire(myRef3);
-        geoFire.getLocation("firebase-hq", new LocationCallback() {
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("geofire");
+        GeoFire geoFire = new GeoFire(ref);
+        geoFire.getLocation("driver", new LocationCallback() {
             @Override
             public void onLocationResult(String key, GeoLocation location) {
                 if (location != null) {
