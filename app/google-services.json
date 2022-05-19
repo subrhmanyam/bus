@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "361507830771",
+    "project_id": "noted-aloe-297822",
+    "storage_bucket": "noted-aloe-297822.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361507830771:android:13cac7c51e7e6b19cfb086",
+        "android_client_info": {
+          "package_name": "com.klh.bussin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361507830771-9706vc5jpub63d517vg5oa8rv6ulll6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX05YyOPXRxGj2K23X4eZE2_3_FcRLzpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361507830771-9706vc5jpub63d517vg5oa8rv6ulll6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
